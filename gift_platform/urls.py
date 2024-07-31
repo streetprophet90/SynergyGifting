@@ -18,9 +18,9 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from gift_platform.users import views as user_views
-from gift_platform.wishlist import views as wishlist_views
-from gift_platform.orders import views as order_views
+from users import views as user_views
+from wishlist import views as wishlist_views
+from orders import views as order_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,4 +28,5 @@ urlpatterns = [
     path('wishlist/', wishlist_views.wishlist, name='wishlist'),
     path('wishlist/add/', wishlist_views.add_item, name='add_item'),
     path('order/<int:item_id>/', order_views.place_order, name='place_order'),
+    path('', user_views.home, name='home'),
 ]

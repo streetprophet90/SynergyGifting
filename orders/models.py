@@ -1,7 +1,7 @@
 from django.db import models
 from django.db import models
-from gift_platform.users.models import User
-from gift_platform.wishlist.models import Item
+from users.models import User
+from wishlist.models import Item
 
 # Create your models here.
 

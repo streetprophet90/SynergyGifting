@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Order
-from gift_platform.wishlist.models import Item, Wishlist
+from wishlist.models import Item, Wishlist
 from .forms import OrderForm
 from django.contrib.auth.decorators import login_required
 
