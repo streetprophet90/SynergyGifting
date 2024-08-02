@@ -20,4 +20,4 @@ def add_item(request):
             return redirect('wishlist')
     else:
         form = ItemForm()
-    return render(request, 'wishlist/add_item.html', {'form': form})
+    return render(request, 'add_item.html', {'form': form})

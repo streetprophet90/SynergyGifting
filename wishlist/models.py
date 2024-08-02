@@ -1,8 +1,7 @@
 from django.db import models
-from users.models import User
 from django.conf import settings
 
-# Create your models here.
+
 class Item(models.Model):
     name = models.CharField(max_length=255)
     url = models.URLField()
@@ -12,8 +11,9 @@ class Item(models.Model):
     def __str__(self):
         return self.name
 
+
 class Wishlist(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     items = models.ManyToManyField(Item)
 
     def __str__(self):
