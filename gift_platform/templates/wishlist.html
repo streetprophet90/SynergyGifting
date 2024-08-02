@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Wishlist{% endblock %}
+
+{% block content %}
+<h2>{{ user.username }}'s Wishlist</h2>
+<ul>
+    {% for item in items %}
+    <li>{{ item.name }} - <a href="{{ item.url }}" target="_blank">Link</a> - {{ item.price }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'add_item' %}" class="btn btn-primary">Add new item</a>
+{% endblock %}
