@@ -1,11 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Order
-from wishlist.models import Item, Wishlist
+from wishlist.models import Item
 from .forms import OrderForm
 from django.contrib.auth.decorators import login_required
-
-# Create your views here.
-
 
 @login_required
 def place_order(request, item_id):
@@ -21,4 +18,4 @@ def place_order(request, item_id):
             return redirect('wishlist')
     else:
         form = OrderForm()
-    return render(request, 'orders/place_order.html', {'form': form, 'item': item})
+    return render(request, 'place_order.html', {'form': form, 'item': item})
