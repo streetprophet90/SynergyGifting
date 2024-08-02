@@ -1,17 +1,14 @@
-
 from django.shortcuts import render, redirect
 from .models import Wishlist, Item
 from .forms import ItemForm
 from django.contrib.auth.decorators import login_required
 
-# Create your views here.
-
-
 @login_required
 def wishlist(request):
+    print(f"request.user: {request.user}, type: {type(request.user)}")  # Debugging line
     wishlist, created = Wishlist.objects.get_or_create(user=request.user)
     items = wishlist.items.all()
-    return render(request, 'wishlist/wishlist.html', {'wishlist': wishlist, 'items': items})
+    return render(request, 'wishlist.html', {'wishlist': wishlist, 'items': items})
 
 @login_required
 def add_item(request):
