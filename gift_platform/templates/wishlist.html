@@ -6,7 +6,13 @@
 <h2>{{ user.username }}'s Wishlist</h2>
 <ul>
     {% for item in items %}
-    <li>{{ item.name }} - <a href="{{ item.url }}" target="_blank">Link</a> - {{ item.price }}</li>
+    <li>
+        {{ item.name }} - <a href="{{ item.url }}" target="_blank">Link</a> - {{ item.price }}
+        <form method="POST" action="{% url 'place_order' item.id %}" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-success">Order</button>
+        </form>
+    </li>
     {% endfor %}
 </ul>
 <a href="{% url 'add_item' %}" class="btn btn-primary">Add new item</a>
