@@ -1,20 +1,18 @@
 {% extends 'base.html' %}
 
-{% block title %}Wishlist{% endblock %}
+{% block title %}{{ wishlist.user.username }}'s Wishlist{% endblock %}
 
 {% block content %}
-<h2>{{ user.username }}'s Wishlist</h2>
-<a href="{% url 'public_wishlist' wishlist.slug %}" class="btn btn-info">Share Wishlist</a>
+<h2>{{ wishlist.user.username }}'s Wishlist</h2>
 <ul>
     {% for item in items %}
     <li>
         {{ item.name }} - <a href="{{ item.url }}" target="_blank">Link</a> - {{ item.price }}
-        <form method="POST" action="{% url 'place_order' item.id %}" style="display:inline;">
+        <form method="POST" action="{% url 'place_order' item.id wishlist.slug %}" style="display:inline;">
             {% csrf_token %}
             <button type="submit" class="btn btn-success">Order</button>
         </form>
     </li>
     {% endfor %}
 </ul>
-<a href="{% url 'add_item' %}" class="btn btn-primary">Add new item</a>
 {% endblock %}

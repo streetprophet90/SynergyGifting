@@ -5,99 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de7642a1-d72e-42d8-8b39-7606bac9703f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/licenses/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/beautifulsoup4-4.12.3.dist-info/licenses/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/__about__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/bootstrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/renderers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/bootstrap4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/field_errors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/field_help_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/form_errors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templates/bootstrap4/widgets/radio_select_button_group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/templatetags/bootstrap4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bootstrap4/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/builder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/builder/_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/css.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/dammit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/diagnose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-4670634698080256.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-4818336571064320.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-4999465949331456.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5000587759190016.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5167584867909632.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5270998950477824.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5375146639360000.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5492400320282624.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5703933063462912.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5843991618256896.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-5984173902397440.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-6124268085182464.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-6241471367348224.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-6306874195312640.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-6450958476902400.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/clusterfuzz-testcase-minimized-bs4_fuzzer-6600557255327744.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/crash-0d306a50c8ed8bcd0785b67000fcd5dea1d33f08.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/fuzz/crash-ffbdfa8a2b26f13537b68d3794b0478a4090ee4a.testcase" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_css.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_dammit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_fuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_navigablestring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_pageelement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_soup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/bs4/tests/test_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/django_bootstrap4-24.3.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve-2.5.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve-2.5.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve-2.5.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve-2.5.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/__meta__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/css_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/css_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/css_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/pretty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoenv/Lib/site-packages/soupsieve/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/templates/order_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/order_confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/templates/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/templates/public_wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/public_wishlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/templates/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/wishlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0002_wishlist_slug.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0002_wishlist_slug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0003_populate_wishlist_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0003_wishlist_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +26,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gift_platform" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gift_platform/gift_platform" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -131,7 +50,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
