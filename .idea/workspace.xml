@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de7642a1-d72e-42d8-8b39-7606bac9703f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/orders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/templates/order_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/order_confirmation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/templates/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/place_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/templates/public_wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/public_wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/templates/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/templates/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0002_wishlist_slug.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0002_wishlist_slug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0003_populate_wishlist_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/migrations/0003_wishlist_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift_platform/wishlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gift_platform/wishlist/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
