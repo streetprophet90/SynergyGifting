@@ -28,9 +28,13 @@ urlpatterns = [
     path('logout/', user_views.logout_view, name='logout'),
     path('wishlist/', wishlist_views.wishlist, name='wishlist'),
     path('wishlist/add/', wishlist_views.add_item, name='add_item'),
+    path('wishlist/<slug:slug>/', wishlist_views.public_wishlist, name='public_wishlist'),
     path('order/<int:item_id>/', order_views.place_order, name='place_order'),
+    path('order/<int:item_id>/<slug:slug>/', order_views.place_order, name='place_order_from_public'),
+    path('order_confirmation/', order_views.order_confirmation, name='order_confirmation'),
     path('', user_views.home, name='home'),
 ]
+
 
 
 
