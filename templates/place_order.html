@@ -9,4 +9,9 @@
     {{ form.as_p }}
     <button type="submit" class="btn btn-primary">Place Order</button>
 </form>
+{% if slug %}
+    <a href="{% url 'public_wishlist' slug %}" class="btn btn-secondary">Back to Wishlist</a>
+{% else %}
+    <a href="{% url 'wishlist' %}" class="btn btn-secondary">Back to Wishlist</a>
+{% endif %}
 {% endblock %}

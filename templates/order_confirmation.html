@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Order Confirmation{% endblock %}
+
+{% block content %}
+<h2>Order Confirmation</h2>
+<p>Thank you, {{ user.username }}! Your order has been placed successfully.</p>
+<a href="{% url 'wishlist' %}" class="btn btn-primary">Back to Wishlist</a>
+{% endblock %}

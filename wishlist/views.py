@@ -2,7 +2,12 @@ from django.shortcuts import render, redirect
 from .models import Wishlist, Item
 from .forms import ItemForm
 from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, get_object_or_404
 
+def public_wishlist(request, slug):
+    wishlist = get_object_or_404(Wishlist, slug=slug)
+    items = wishlist.items.all()
+    return render(request, 'public_wishlist.html', {'wishlist': wishlist, 'items': items})
 @login_required
 def wishlist(request):
     print(f"request.user: {request.user}, type: {type(request.user)}")  # Debugging line
@@ -21,3 +26,7 @@ def add_item(request):
     else:
         form = ItemForm()
     return render(request, 'add_item.html', {'form': form})
+
+
+
+

@@ -4,6 +4,7 @@
 
 {% block content %}
 <h2>{{ user.username }}'s Wishlist</h2>
+<a href="{% url 'public_wishlist' wishlist.slug %}" class="btn btn-info">Share Wishlist</a>
 <ul>
     {% for item in items %}
     <li>
